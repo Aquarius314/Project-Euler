@@ -5,7 +5,7 @@
 # first one hundred natural numbers and the square of the sum.
 
 # BRUTE
-# Solution is 24174150
+# Solution is 25164150
 
 squared_sum = 0
 sum_squares = 0
