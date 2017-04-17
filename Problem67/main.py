@@ -26,10 +26,3 @@ for i in range(len(triangle)):
 maximum = max(triangle[len(triangle)-1])
 
 print(maximum)
-sp = len(triangle)-1
-for level in triangle:
-    spaces = ""
-    for i in range(sp):
-        spaces += "  "
-    sp -= 1
-    print(spaces + str(level))
