@@ -38,3 +38,15 @@ def primes_quantity(max_quantity):
             primes.append(number)
 
     return primes
+
+def is_prime(number):
+    if number < 2:
+        return False
+    correct = True
+    p = 2
+    while p <= math.sqrt(number):
+        if number%p == 0:
+            correct = False
+            break
+        p += 1
+    return correct
